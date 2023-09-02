@@ -1,11 +1,11 @@
 import React from 'react';
 
-const OrderPage = () => {
+const Featured = () => {
     return (
         <div>
-            order
+            
         </div>
     );
 };
 
-export default OrderPage;
+export default Featured;

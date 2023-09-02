@@ -1,11 +1,11 @@
 import React from 'react';
 
-const OrderPage = () => {
+const Slider = () => {
     return (
         <div>
-            order
+            
         </div>
     );
 };
 
-export default OrderPage;
+export default Slider;

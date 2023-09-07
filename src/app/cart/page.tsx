@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import React from 'react';
 
 const CartPage = () => {
@@ -62,7 +63,9 @@ const CartPage = () => {
                     </span>
                     <span className=''>$43.00</span>
                 </div>
+                <Link href='/'>
                 <button className='bg-red-500 text-white p-3 rounded-md w-1/2 self-end'>Checkout</button>
+                </Link>
             </div>
         </div>
     );

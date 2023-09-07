@@ -391,7 +391,29 @@ export const Pizzas: Products = [
       },
     ],
   },
-]
+];
+
+export const singleProduct: Product = {
+  id: 1,
+  title: "sicilian",
+  desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur at architecto placeat aut exercitationem soluta?",
+  img: "/temporary/p1.png",
+  price: 25.9,
+  options: [
+    {
+      title: "small",
+      additionalPrice: 0,
+    },
+    {
+      title: "medium",
+      additionalPrice: 4,
+    },
+    {
+      title: "large",
+      additionalPrice: 6,
+    },
+  ],
+};
 
 type Menu = {
   id: number;
